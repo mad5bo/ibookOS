@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to i book
 
 You can use the [editor on GitHub](https://github.com/mad5bo/ibookOS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -9,7 +9,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+- Metro Mirror and Global Mirror are two types of High Availability / Disaster Recovery Solutions that run on external storage and can be managed by IBM i PowerHA used  to provide availability for both planned and unplanned outages. 
+
+ - Installation consists of a Preferred Source with IBM i Current Production and a Preferred Target system with IBM i Current Backup partition. Both are in a cluster, and each partition use of an external storage subsystem for IASP disks. 
+
+ - For both Metro Mirror and Global Mirror copy types, host applications write data to the primary volume, and updates to the primary volume are copied to the secondary volume by the external storage subsystem. Normally, host applications do not run I/O operations to the secondary volume
 
 # Header 1
 ## Header 2
